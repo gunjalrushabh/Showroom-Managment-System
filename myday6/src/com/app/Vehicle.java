@@ -2,7 +2,7 @@ package com.app;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import static utills.Validation.validatecolor;
 public class Vehicle {
 private String chasnum;
 private Color colour;
@@ -49,5 +49,7 @@ public boolean equals(Object anotherveh) //this will prevent duplication of vehi
 		return false;
 	}
 }
+
+
 
 }
